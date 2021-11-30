@@ -35,7 +35,7 @@ export const Footer: React.FC<{
       <div className={styles.copyright}>Copyright &copy; {config.author}</div>
 
       {hasMounted ? (
-        <div className={styles.settings}>
+        <div className={styles.settings} style={{ display: 'none' }}>
           <a
             className={styles.toggleDarkMode}
             onClick={toggleDarkModeCb}
