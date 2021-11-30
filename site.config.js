@@ -20,8 +20,8 @@ module.exports = {
   // twitter: null,
   // linkedin: null,
   github: 'silentsoft',
-  email: 'hyesung.lee@silentsoft.org',
-  blog: 'https://blog.silentsoft.org',
+  // email: null,
+  // blog: null,
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
