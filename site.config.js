@@ -50,6 +50,6 @@ module.exports = {
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: {
-    '/details': '9b6cd4cad33d4c6ba49b078c38d998f2'
+    '/details': '22408a8677ac4e32b993aa6e72817455'
   }
 }
