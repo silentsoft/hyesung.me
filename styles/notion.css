@@ -201,15 +201,10 @@
 }
 
 .notion-link {
-  position: relative;
-  transition: unset;
   opacity: 1;
 }
-
 .notion-link:hover {
-  border-width: 3px;
-  border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
-  border-image-slice: 1;
+  border-bottom: 0.075em solid;
 }
 
 .notion-red_background,
@@ -330,8 +325,11 @@
 }
 
 .notion-bookmark:hover {
-  border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
-  border-image-slice: 1;
+  border-color: var(--fg-color-2);
+}
+
+.dark-mode .notion-bookmark:hover {
+  border-color: var(--fg-color-1);
 }
 
 @media (max-width: 640px) {
