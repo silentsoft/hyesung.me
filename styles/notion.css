@@ -346,6 +346,30 @@
   font-size: 14px;
 }
 
+/* read more */
+.notion-text.notion-block-dc8c9e2545e6485c8a23fbdcde21aa83 {
+  display: flex;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid var(--fg-color-1);
+  border-radius: 3px;
+}
+.notion-text.notion-block-dc8c9e2545e6485c8a23fbdcde21aa83:hover {
+  border-color: var(--fg-color-2);
+}
+.dark-mode .notion-text.notion-block-dc8c9e2545e6485c8a23fbdcde21aa83 {
+  border: 1px solid var(--bg-color-0);
+}
+.dark-mode .notion-text.notion-block-dc8c9e2545e6485c8a23fbdcde21aa83:hover {
+  border-color: var(--fg-color-1);
+}
+.notion-block-dc8c9e2545e6485c8a23fbdcde21aa83 a,
+.notion-block-dc8c9e2545e6485c8a23fbdcde21aa83 a:hover {
+  width: 100%;
+  border-bottom: 0;
+}
+
 /* details page link block */
 .notion-page-link.notion-block-22408a8677ac4e32b993aa6e72817455 {
   display: none;
