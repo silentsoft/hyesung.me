@@ -58,6 +58,10 @@
   font-size: 80%;
 }
 
+.hits {
+  padding-top: 8px;
+}
+
 .settings,
 .social {
   user-select: none;

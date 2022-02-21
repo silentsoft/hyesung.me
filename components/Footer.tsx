@@ -45,6 +45,16 @@ export const Footer: React.FC<{
           </a>
         </div>
       ) : null}
+      {hasMounted && config.domain ? (
+        <div className={styles.hits}>
+          <a href={`https://hits.sh/${config.domain}/`}>
+            <img
+              src={`https://hits.sh/${config.domain}.svg?label=page%20views&color=2f3437&labelColor=2f3437&logo=notion`}
+              alt='Hits'
+            />
+          </a>
+        </div>
+      ) : null}
 
       <div className={styles.social}>
         {config.blog && (
