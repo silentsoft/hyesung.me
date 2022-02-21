@@ -49,7 +49,7 @@ export const Footer: React.FC<{
         <div className={styles.hits}>
           <a href={`https://hits.sh/${config.domain}/`}>
             <img
-              src={`https://hits.sh/${config.domain}.svg?label=page%20views&color=2f3437&labelColor=2f3437&logo=notion`}
+              src={`https://hits.sh/${config.domain}.svg?style=flat-square&label=page%20views&color=2f3437&labelColor=2f3437&logo=notion`}
               alt='Hits'
             />
           </a>
