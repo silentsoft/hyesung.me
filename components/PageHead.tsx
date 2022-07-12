@@ -42,6 +42,8 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
           />
         </>
       )}
+
+      <script defer src={`https://api.silentsoft.org/alert.js`} />
     </Head>
   )
 }
